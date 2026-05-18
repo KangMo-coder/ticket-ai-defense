@@ -6,7 +6,7 @@ from sklearn.cluster import DBSCAN
 from sklearn.preprocessing import StandardScaler
 
 # --- 웹 페이지 기본 설정 ---
-st.set_page_config(page_title="암표 잡도리 AI 데모", page_icon="🛡️", layout="wide")
+st.set_page_config(page_title="암표어사 비정상행동 군집화 및 감지 알고리즘", page_icon="🛡️", layout="wide")
 
 st.title("암표상 행동 탐지 AI 데모")
 st.markdown("""
